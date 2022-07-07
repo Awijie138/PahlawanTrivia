@@ -1,0 +1,64 @@
+{
+  "Trivia": [
+    {
+        "number": "1",
+        "question": "Siapa presiden pertama Indonesia?",
+        "answer" : ["Soeharto","Soekarno","Habibie"],
+        "correctAnswer" : "Soekarno" 
+    },
+    {
+        "number": "2",
+        "question" : "Nama asli Kapitan Pattimura?",
+        "answer" : ["Thomas Matulessy","Ahmad Lussy","John Pattaimaura"],
+        "correctAnswer" : "Ahmad Lussy" 
+    },
+    {
+        "number": "3",
+        "question" : "Siapa dibawah ini yang merupakan pahlawan di sulawesi selatan?",
+        "answer" : ["Sultan Hasanuddin","Ahmad Dahlan","Teuku Umar"],
+        "correctAnswer" : "Sultan Hasanuddin" 
+    },
+    {
+        "number": "4",
+        "question" : "Siapa nama pahlawan yang berada di mata uang 5000 rupiah yang baru?",
+        "answer" : ["Tjut Meutia","Frans Kaisiepo","Idham Chalid"],
+        "correctAnswer" : "Idham Chalid" 
+    },
+    {
+        "number": "5",
+        "question" : "Siapa tokoh pahlawan yang mendirikan Tentara Keamanan Rakyat(TKR)? ",
+        "answer" : ["Gatot Subroto","Sudirman","Otto Iskandar Dinata"],
+        "correctAnswer" : "Gatot Subroto" 
+    },
+    {
+        "number": "6",
+        "question" : "Siapa pencipta lagu Indonesia Raya?",
+        "answer" : ["Djuanda Kartawidjaja","W.R. Supratman","RA Kartini"],
+        "correctAnswer" : "W.R. Supratman" 
+    },
+    {
+        "number": "7",
+        "question" : "Siapa tokoh pahlawan yang juga dijuluki sebagai bapak pendidikan?",
+        "answer" : ["Ki Hajar Dewantara","Teuku Umar","Pangeran Diponegoro"],
+        "correctAnswer" : "Ki Hajar Dewantara" 
+    },
+    {
+        "number": "8",
+        "question" : "Siapa pemimpin pertempuran 10 November di Surabaya?",
+        "answer" : ["Raden Soedirman","W.R. Supratman","Sutomo"],
+        "correctAnswer" : "Sutomo" 
+    },
+    {
+        "number": "9",
+        "question" : "Siapa tokoh pahlawan yang menjadi simbol emansipasi wanita?",
+        "answer" : ["Cut Nyak Dhien","Cut Meutia","RA Kartini"],
+        "correctAnswer" : "RA Kartini" 
+    },
+    {
+        "number": "10",
+        "question" : "Semboyan yang paling dikenal dalam peristiwa 10 November 1945 adalah?",
+        "answer" : ["Berani Mati Takut Lapar","Merdeka atau Mati","Pantang Mundur Sebelum Menang"],
+        "correctAnswer" : "Merdeka atau Mati" 
+    }
+]
+}

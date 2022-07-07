@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: 20a8492c9aa9eb9478f8e95e672a7ba1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_0"
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 3522
+        width: 814
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b055d1508695843899ef25db94275c
+      internalID: 1397955171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_1"
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 3477
+        width: 1052
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681e33b1fa61f0c43bcef9cec72a634b
+      internalID: -1611350470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_2"
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 3432
+        width: 583
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2223f8a4c7848b43ac439da7d51ab11
+      internalID: 1603007998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_3"
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 3562
+        width: 480
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4221c6577d2dc094eae2b90a2cfd26c0
+      internalID: -464248521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_4"
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 2640
+        width: 492
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9997f292ebf8a41b077746a449f0fb
+      internalID: -494197641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_5"
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 2634
+        width: 617
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1d7b7851c4ae044b1c17299bfcd76b
+      internalID: 300366355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_6"
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 2623
+        width: 498
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ec1b065a1e4f54495bbf94ee05d8d0
+      internalID: -8593440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_7"
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2634
+        width: 945
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff288670e88c9094d9c8b997ad6dbccd
+      internalID: 1906802222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_8"
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1791
+        width: 481
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a348c3d9a166be4428f08e0f38fac686
+      internalID: -1855727551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_9"
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1735
+        width: 515
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c606f3844e2ff4db03d93ea2bd4f53
+      internalID: -1463763225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_10"
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 1746
+        width: 249
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7394cd7f0115b1c49a2b1edb01694867
+      internalID: 1775875630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_11"
+      rect:
+        serializedVersion: 2
+        x: 3763
+        y: 1576
+        width: 413
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4aadb33b31bb947a26620dea943fdb
+      internalID: -150592116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_12"
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 858
+        width: 1001
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5b994ded381344b8ebe25bb5c776d9
+      internalID: -1617531772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_13"
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 897
+        width: 526
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28811b331e1f2cc43b26ee419507f431
+      internalID: 1196646085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_14"
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 875
+        width: 486
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5206595d937054994d4c9161b1f921
+      internalID: -1356661673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014indonesia icon set template vector_5692602_15"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 858
+        width: 520
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d141f82d8fad8f4ebf9151465854abe
+      internalID: 732662179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_11": -1423008758
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_8": -2128323638
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_10": 1605884350
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_5": -1656769275
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_7": -438788619
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_12": 202707415
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_15": 1243970883
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_2": 135033281
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_4": -149216097
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_6": -68410085
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_3": -885147755
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_1": 1144274022
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_13": 799186572
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_14": 1995792080
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_9": 63767426
+      "\u2014Pngtree\u2014indonesia icon set template vector_5692602_0": 1397955171
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

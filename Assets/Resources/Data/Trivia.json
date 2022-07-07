@@ -1,0 +1,82 @@
+[
+    {
+        "number": "1",
+        "question" : "Nama asli dari Kapitan Pattimura adalah ...",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "2",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "3",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "4",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "5",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "6",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "7",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "8",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "9",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    },
+    {
+        "number": "10",
+        "question" : "Lorem ipsum",
+        "answer1" : "A",
+        "answer2" : "B",
+        "answer3" : "C",
+        "correctAnswer" : "A" 
+    }
+]
