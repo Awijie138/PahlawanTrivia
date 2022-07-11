@@ -1,9 +1,9 @@
 using Agate.MVC.Base;
-using Utility;
+using Trivia.Utility;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Module.Menu
+namespace Trivia.Module.Menu
 {
     public class MenuController : ObjectController<MenuController, MenuView>
     {

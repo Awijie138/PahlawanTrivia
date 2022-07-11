@@ -1,17 +1,11 @@
-namespace Module.DataTrivia
+namespace Trivia.Module.DataTrivia
 {
     [System.Serializable]
     public class Trivia
     {
-        public string number;
-        public string question;
-        public string[] answer;
-        public string correctAnswer;
-    }
-
-    [System.Serializable]
-    public class SoalTriviaCollection
-    {
-        public Trivia[] Trivia;
+        public string Number;
+        public string Question;
+        public string[] Answer;
+        public string CorrectAnswer;
     }
 }

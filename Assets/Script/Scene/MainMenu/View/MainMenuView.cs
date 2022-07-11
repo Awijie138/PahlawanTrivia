@@ -1,8 +1,8 @@
 using Agate.MVC.Base;
-using Module.Menu;
+using Trivia.Module.Menu;
 using UnityEngine;
 
-namespace Scene.MainMenu
+namespace Trivia.Scene.MainMenu
 {
     public class MainMenuView : BaseSceneView
     {

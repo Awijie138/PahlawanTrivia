@@ -1,4 +1,4 @@
-namespace Module.Gameplay
+namespace Trivia.Module.Gameplay
 {
     public class AnswersMessage
     {

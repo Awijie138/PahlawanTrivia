@@ -1,13 +1,13 @@
 using Agate.MVC.Base;
 using Agate.MVC.Core;
-using Module.DataTrivia;
-using Module.LevelStatus;
-using Module.SoundEffect;
 using System.Collections;
+using Trivia.Module.DataTrivia;
+using Trivia.Module.LevelStatus;
+using Trivia.Module.SoundEffect;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Boot
+namespace Trivia.Boot
 {
     public class GameLauncher : BaseMain<GameLauncher>, IMain
     {
@@ -35,10 +35,10 @@ namespace Boot
 
         private void CreateEventSystem()
         {
-            GameObject obj = new GameObject("Event System");
-            obj.AddComponent<EventSystem>();
-            obj.AddComponent<StandaloneInputModule>();
-            GameObject.DontDestroyOnLoad(obj);
+            GameObject Obj = new GameObject("Event System");
+            Obj.AddComponent<EventSystem>();
+            Obj.AddComponent<StandaloneInputModule>();
+            GameObject.DontDestroyOnLoad(Obj);
         }
     }
 }

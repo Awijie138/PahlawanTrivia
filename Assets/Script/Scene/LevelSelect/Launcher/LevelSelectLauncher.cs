@@ -1,24 +1,23 @@
 using Agate.MVC.Base;
 using Agate.MVC.Core;
-using Module.Level;
-using Boot;
-using Utility;
 using System.Collections;
-using UnityEngine;
+using Trivia.Boot;
+using Trivia.Module.Level;
+using Trivia.Utility;
 
-namespace Scene.LevelSelect
+namespace Trivia.Scene.LevelSelect
 {
     public class LevelSelectLauncher : SceneLauncher<LevelSelectLauncher, LevelSelectView>
     {
-        private LevelController _level;
         public override string SceneName => Scenes.LevelSelect;
+        private LevelController _level;
 
         protected override IConnector[] GetSceneConnectors()
         {
             return new IConnector[]
-        {
+            {
 
-        };
+            };
         }
 
         protected override IController[] GetSceneDependencies()

@@ -1,8 +1,8 @@
 using Agate.MVC.Base;
-using Module.Gameplay;
+using Trivia.Module.Gameplay;
 using UnityEngine;
 
-namespace Scene.Game
+namespace Trivia.Scene.Game
 {
     public class GameView : BaseSceneView
     {

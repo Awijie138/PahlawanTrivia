@@ -1,19 +1,18 @@
 using Agate.MVC.Base;
 using Agate.MVC.Core;
-using Module.Gameplay;
-using Module.DataTrivia;
-using Boot;
-using Utility;
 using System.Collections;
-using UnityEngine;
+using Trivia.Boot;
+using Trivia.Module.DataTrivia;
+using Trivia.Module.Gameplay;
+using Trivia.Utility;
 
-namespace Scene.Game
+namespace Trivia.Scene.Game
 {
     public class GameLauncher : SceneLauncher<GameLauncher, GameView>
     {
+        public override string SceneName => Scenes.GamePlay;
         private GameplayController _gameplay;
         private DataTriviaController _dataTrivia;
-        public override string SceneName => Scenes.GamePlay;
         protected override IConnector[] GetSceneConnectors()
         {
             return new IConnector[]

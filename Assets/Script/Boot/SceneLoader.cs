@@ -1,7 +1,6 @@
 using Agate.MVC.Base;
-using System.Collections;
 
-namespace Boot
+namespace Trivia.Boot
 {
     public class SceneLoader : BaseLoader<SceneLoader>
     {

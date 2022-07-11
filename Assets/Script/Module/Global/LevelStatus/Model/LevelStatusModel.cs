@@ -1,45 +1,38 @@
 using Agate.MVC.Base;
-
 using System.Collections.Generic;
 
-
-namespace Module.LevelStatus
+namespace Trivia.Module.LevelStatus
 {
-    public interface ILevelStatusModel : IBaseModel
-    {
-        int level { get; }
-        List<string> status { get; }
-    }
     public class LevelStatusModel : BaseModel, ILevelStatusModel
     {
-        public int level { get; protected set; }
-        public List<string> status { get; protected set; } = new List<string> { "Unlock", "Lock", "Lock", "Lock", "Lock", "Lock", "Lock", "Lock", "Lock", "Lock", };
+        public int Level { get; protected set; }
+        public List<string> LevelStatusList { get; protected set; } = new List<string> { "Unlock", "Lock", "Lock", "Lock", "Lock", "Lock", "Lock", "Lock", "Lock", "Lock", };
 
         public void UnlockLevel(int level)
         {
-            status[level] = "Unlock";
+            LevelStatusList[level] = "Unlock";
         }
 
         public void SetLevel(int source)
         {
-            level = source;
+            Level = source;
         }
 
         public void Reset()
         {
-            for (int i = 0; i < status.Count; i++)
+            for (int i = 0; i < LevelStatusList.Count; i++)
             {
                 if (i == 1)
                 {
-                    status[i] = "Unlock";
+                    LevelStatusList[i] = "Unlock";
                 }
-                status[i] = "Lock";
+                LevelStatusList[i] = "Lock";
             }
         }
 
         public bool CheckStatus(int level)
         {
-            if (status[level] == "Unlock")
+            if (LevelStatusList[level] == "Unlock")
             {
                 return true;
             }

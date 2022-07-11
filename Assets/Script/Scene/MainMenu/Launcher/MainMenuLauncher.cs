@@ -1,12 +1,11 @@
 using Agate.MVC.Base;
 using Agate.MVC.Core;
-using Module.Menu;
-using UnityEngine;
-using Boot;
-using Utility;
 using System.Collections;
+using Trivia.Module.Menu;
+using Trivia.Boot;
+using Trivia.Utility;
 
-namespace Scene.MainMenu
+namespace Trivia.Scene.MainMenu
 {
     public class MainMenuLauncher : SceneLauncher<MainMenuLauncher, MainMenuView>
     {
@@ -17,17 +16,17 @@ namespace Scene.MainMenu
         protected override IConnector[] GetSceneConnectors()
         {
             return new IConnector[]
-           {
+            {
 
-           };
+            };
         }
 
         protected override IController[] GetSceneDependencies()
         {
             return new IController[]
-          {
+            {
                 new MenuController()
-          };
+            };
         }
 
         protected override IEnumerator InitSceneObject()
@@ -40,7 +39,6 @@ namespace Scene.MainMenu
         {
             yield return null;
         }
-
     }
 }
 

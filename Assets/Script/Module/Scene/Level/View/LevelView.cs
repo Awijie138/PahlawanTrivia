@@ -1,15 +1,45 @@
 using Agate.MVC.Base;
-
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-namespace Module.Level
+namespace Trivia.Module.Level
 {
     public class LevelView : ObjectView<ILevelModel>
     {
         [SerializeField]
-        private Button _level1, _level2, _level3, _level4, _level5, _level6, _level7, _level8, _level9, _level10, _onBack;
+        private Button _level1;
+
+        [SerializeField]
+        private Button _level2;
+
+        [SerializeField]
+        private Button _level3;
+
+        [SerializeField]
+        private Button _level4;
+
+        [SerializeField]
+        private Button _level5;
+
+        [SerializeField]
+        private Button _level6;
+
+        [SerializeField]
+        private Button _level7;
+
+        [SerializeField]
+        private Button _level8;
+
+        [SerializeField]
+        private Button _level9;
+
+        [SerializeField]
+        private Button _level10;
+
+        [SerializeField]
+        private Button _onBack;
+
         public void Init(UnityAction<int> levelSelect, UnityAction onBack)
         {
             _level1.onClick.RemoveAllListeners();
@@ -47,4 +77,3 @@ namespace Module.Level
         }
     }
 }
-

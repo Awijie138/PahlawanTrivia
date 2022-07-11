@@ -1,7 +1,6 @@
 using Agate.MVC.Base;
-using UnityEngine;
 
-namespace Module.LevelStatus
+namespace Trivia.Module.LevelStatus
 {
     public class LevelStatusController : DataController<LevelStatusController, LevelStatusModel, ILevelStatusModel>
     {
@@ -9,10 +8,12 @@ namespace Module.LevelStatus
         {
             return _model.CheckStatus(level);
         }
+
         public void Unlock(int level)
         {
             _model.UnlockLevel(level);
         }
+
         public void Reset()
         {
             _model.Reset();
@@ -23,6 +24,5 @@ namespace Module.LevelStatus
             _model.SetLevel(level);
         }
     }
-
 }
 

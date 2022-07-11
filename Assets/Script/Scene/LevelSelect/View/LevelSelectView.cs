@@ -1,9 +1,9 @@
 using Agate.MVC.Base;
-using Module.Level;
+using Trivia.Module.Level;
 using UnityEngine;
 
 
-namespace Scene.LevelSelect
+namespace Trivia.Scene.LevelSelect
 {
     public class LevelSelectView : BaseSceneView
     {

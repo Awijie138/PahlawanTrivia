@@ -1,26 +1,26 @@
 using Agate.MVC.Base;
-
-using Module.LevelStatus;
-using Module.DataTrivia;
-using UnityEngine.UI;
+using Trivia.Module.DataTrivia;
+using Trivia.Module.LevelStatus;
+using Trivia.Utility;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Utility;
 
-namespace Module.Gameplay
+namespace Trivia.Module.Gameplay
 {
     public class GameplayController : ObjectController<GameplayController, GameplayModel, IGameplayModel, GameplayView>
     {
         private DataTriviaController _dataTrivia;
         private LevelStatusController _levelStatus;
-
         private AnswersMessage _message = new AnswersMessage();
+
         public override void SetView(GameplayView view)
         {
             base.SetView(view);
             view.Init(Back, Choose1, Choose2, Choose3);
-            SetLevel(_levelStatus.Model.level);
-            SetTrivia(_model.levelNumber);
+
+            int LevelSelect = _levelStatus.Model.Level;
+            SetLevel(LevelSelect);
+            SetTrivia(_model.Level);
         }
 
         public void SetLevel(int level)
@@ -30,42 +30,51 @@ namespace Module.Gameplay
 
         public void SetTrivia(int level)
         {
-            _model.SetTrivia(_dataTrivia.Model.soalTriviaCollection.Trivia[level].number,
-            _dataTrivia.Model.soalTriviaCollection.Trivia[level].question,
-            _dataTrivia.Model.soalTriviaCollection.Trivia[level].correctAnswer,
-            _dataTrivia.Model.soalTriviaCollection.Trivia[level].answer);
+            string number = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].Number;
+            string question = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].Question;
+            string correctAnswer = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].CorrectAnswer;
+            string[] answers = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].Answer;
+
+            _model.SetTrivia(number, question, correctAnswer, answers);
         }
 
         public void Choose1()
         {
-            AnswerCheck(_model.answer1, _model.rightAnswer);
-        }
-        public void Choose2()
-        {
-            AnswerCheck(_model.answer2, _model.rightAnswer);
-        }
-        public void Choose3()
-        {
-            AnswerCheck(_model.answer3, _model.rightAnswer);
+            string playerAnswer = _model.AnswerA;
+            string rightAnswer = _model.RightAnswer;
+            AnswerCheck(playerAnswer, rightAnswer);
         }
 
-        public void AnswerCheck(string answer, string correctAnswer)
+        public void Choose2()
         {
-            if (answer == correctAnswer)
+            string playerAnswer = _model.AnswerB;
+            string rightAnswer = _model.RightAnswer;
+            AnswerCheck(playerAnswer, rightAnswer);
+        }
+
+        public void Choose3()
+        {
+            string playerAnswer = _model.AnswerC;
+            string rightAnswer = _model.RightAnswer;
+            AnswerCheck(playerAnswer, rightAnswer);
+        }
+
+        public void AnswerCheck(string playerAnswer, string correctAnswer)
+        {
+            if (playerAnswer == correctAnswer)
             {
                 Debug.Log("Benar");
                 _message.IsAnswerCorrect = true;
                 Publish<AnswersMessage>(_message);
                 _model.NextLevel();
-                _levelStatus.Unlock(_model.levelNumber);
-                SetTrivia(_model.levelNumber);
+                _levelStatus.Unlock(_model.Level);
+                SetTrivia(_model.Level);
             }
             else
             {
                 Debug.Log("Salah");
                 _message.IsAnswerCorrect = false;
                 Publish<AnswersMessage>(_message);
-
             }
         }
 

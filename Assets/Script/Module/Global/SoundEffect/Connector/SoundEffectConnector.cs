@@ -1,15 +1,13 @@
 using Agate.MVC.Base;
-using Module.Gameplay;
-using Module.Level;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using Trivia.Module.Gameplay;
+using Trivia.Module.Level;
 
-namespace Module.SoundEffect
+namespace Trivia.Module.SoundEffect
 {
     public class SoundEffectConnector : BaseConnector
     {
         private SoundEffectController _soundEffect;
+
         protected override void Connect()
         {
             Subscribe<AnswersMessage>(_soundEffect.AnswerSound);

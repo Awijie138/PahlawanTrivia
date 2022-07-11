@@ -1,13 +1,13 @@
 using Agate.MVC.Base;
-using Module.LevelStatus;
-using Module.Gameplay;
-using UnityEngine.UI;
+using Trivia.Module.Gameplay;
+using Trivia.Module.LevelStatus;
+using Trivia.Utility;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Utility;
 
 
-namespace Module.Level
+namespace Trivia.Module.Level
 {
     public class LevelController : ObjectController<LevelController, LevelModel, ILevelModel, LevelView>
     {
@@ -19,30 +19,31 @@ namespace Module.Level
             base.SetView(view);
             view.Init(LevelSelect, Onback);
         }
+
         public void SetLevel(int source)
         {
             _model.SetLevel(source);
-            _levelStatus.SetLevel(_model.level);
+            _levelStatus.SetLevel(_model.Level);
         }
-        // Start is called before the first frame update
+
         public void LevelSelect(int number)
         {
             SetLevel(number);
+            bool IsUnlockResult = _levelStatus.IsUnlock(_model.Level);
 
-            if (_levelStatus.IsUnlock(_model.level) == true)
+            if (IsUnlockResult)
             {
-                Debug.Log("Level " + _model.levelNumber + " is unlock");
+                Debug.Log("Level " + _model.LevelNumber + " is unlock");
                 SceneManager.LoadScene(Scenes.GamePlay, LoadSceneMode.Additive);
             }
             else
             {
-                Debug.Log("Level " + _model.levelNumber + " is lock");
+                Debug.Log("Level " + _model.LevelNumber + " is lock");
                 Publish<LockMessage>(new LockMessage());
             }
 
         }
 
-        // Update is called once per frame
         public void Onback()
         {
             SceneManager.LoadScene(Scenes.MainMenu, LoadSceneMode.Additive);
