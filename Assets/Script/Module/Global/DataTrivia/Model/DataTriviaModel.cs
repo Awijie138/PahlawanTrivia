@@ -8,7 +8,7 @@ namespace Trivia.Module.DataTrivia
         public SoalTriviaCollection SoalTriviaCollection { get; private set; }
         public void SetSoalTrivia()
         {
-            TextAsset DataTrivia = Resources.Load(@"Trivia") as TextAsset;
+            TextAsset DataTrivia = Resources.Load("Trivia") as TextAsset;
             SoalTriviaCollection _source = JsonUtility.FromJson<SoalTriviaCollection>(DataTrivia.text);
             SoalTriviaCollection = _source;
         }

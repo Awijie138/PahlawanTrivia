@@ -1,3 +1,4 @@
+using System.Collections;
 using Agate.MVC.Base;
 using Trivia.Module.DataTrivia;
 using Trivia.Module.LevelStatus;
@@ -30,10 +31,11 @@ namespace Trivia.Module.Gameplay
 
         public void SetTrivia(int level)
         {
-            string number = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].Number;
-            string question = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].Question;
-            string correctAnswer = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].CorrectAnswer;
-            string[] answers = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].Answer;
+            //Debug.Log(_dataTrivia.);
+            string number = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].number;
+            string question = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].question;
+            string correctAnswer = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].correctAnswer;
+            string[] answers = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].answer;
 
             _model.SetTrivia(number, question, correctAnswer, answers);
         }
