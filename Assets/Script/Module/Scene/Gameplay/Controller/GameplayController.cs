@@ -1,5 +1,6 @@
-using System.Collections;
 using Agate.MVC.Base;
+using System.Collections;
+using Trivia.Boot;
 using Trivia.Module.DataTrivia;
 using Trivia.Module.LevelStatus;
 using Trivia.Utility;
@@ -13,6 +14,17 @@ namespace Trivia.Module.Gameplay
         private DataTriviaController _dataTrivia;
         private LevelStatusController _levelStatus;
         private AnswersMessage _message = new AnswersMessage();
+
+        public override IEnumerator Initialize()
+        {
+            yield return base.Initialize();
+        }
+
+        public override IEnumerator Finalize()
+        {
+            yield return base.Finalize();
+
+        }
 
         public override void SetView(GameplayView view)
         {
@@ -31,7 +43,6 @@ namespace Trivia.Module.Gameplay
 
         public void SetTrivia(int level)
         {
-            //Debug.Log(_dataTrivia.);
             string number = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].number;
             string question = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].question;
             string correctAnswer = _dataTrivia.Model.SoalTriviaCollection.Trivia[level].correctAnswer;
@@ -82,7 +93,7 @@ namespace Trivia.Module.Gameplay
 
         public void Back()
         {
-            SceneManager.LoadScene(Scenes.LevelSelect, LoadSceneMode.Additive);
+            SceneLoader.Instance.LoadScene(Scenes.LevelSelect);
         }
     }
 }

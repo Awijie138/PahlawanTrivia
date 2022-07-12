@@ -1,9 +1,22 @@
 using Agate.MVC.Base;
+using System.Collections;
 
 namespace Trivia.Module.LevelStatus
 {
     public class LevelStatusController : DataController<LevelStatusController, LevelStatusModel, ILevelStatusModel>
     {
+
+        public override IEnumerator Initialize()
+        {
+            yield return base.Initialize();
+        }
+
+        public override IEnumerator Finalize()
+        {
+            yield return base.Finalize();
+
+        }
+
         public bool IsUnlock(int level)
         {
             return _model.CheckStatus(level);

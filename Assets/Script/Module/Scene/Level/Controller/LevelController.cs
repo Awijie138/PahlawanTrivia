@@ -1,10 +1,10 @@
 using Agate.MVC.Base;
-using Trivia.Module.Gameplay;
+using System.Collections;
+using Trivia.Boot;
 using Trivia.Module.LevelStatus;
 using Trivia.Utility;
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 namespace Trivia.Module.Level
@@ -13,6 +13,17 @@ namespace Trivia.Module.Level
     {
 
         private LevelStatusController _levelStatus;
+
+        public override IEnumerator Initialize()
+        {
+            yield return base.Initialize();
+        }
+
+        public override IEnumerator Finalize()
+        {
+            yield return base.Finalize();
+
+        }
 
         public override void SetView(LevelView view)
         {
@@ -34,7 +45,7 @@ namespace Trivia.Module.Level
             if (IsUnlockResult)
             {
                 Debug.Log("Level " + _model.LevelNumber + " is unlock");
-                SceneManager.LoadScene(Scenes.GamePlay, LoadSceneMode.Additive);
+                SceneLoader.Instance.LoadScene(Scenes.GamePlay);
             }
             else
             {
@@ -46,7 +57,7 @@ namespace Trivia.Module.Level
 
         public void Onback()
         {
-            SceneManager.LoadScene(Scenes.MainMenu, LoadSceneMode.Additive);
+            SceneLoader.Instance.LoadScene(Scenes.MainMenu);
         }
     }
 }

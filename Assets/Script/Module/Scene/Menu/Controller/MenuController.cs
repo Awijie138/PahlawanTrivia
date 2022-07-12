@@ -1,7 +1,7 @@
 using Agate.MVC.Base;
+using Trivia.Boot;
 using Trivia.Utility;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Trivia.Module.Menu
 {
@@ -15,7 +15,7 @@ namespace Trivia.Module.Menu
 
         public void OnPlay()
         {
-            SceneManager.LoadScene(Scenes.LevelSelect, LoadSceneMode.Additive);
+            SceneLoader.Instance.LoadScene(Scenes.LevelSelect);
         }
 
         public void OnExit()
