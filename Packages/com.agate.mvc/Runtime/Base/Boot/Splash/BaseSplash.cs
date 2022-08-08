@@ -3,8 +3,8 @@ using Agate.MVC.Core;
 
 namespace Agate.MVC.Base
 {
-    public abstract class BaseLoader<T> : Loader<T> where T : BaseLoader<T>
+    public abstract class BaseSplash<T> : Splash<T>, ISplash where T : BaseSplash<T>
     {
-        
+
     }
 }

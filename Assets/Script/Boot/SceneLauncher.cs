@@ -10,12 +10,17 @@ namespace Trivia.Boot
 
         protected override IMain GetMain()
         {
-            return GameLauncher.Instance;
+            return GameMain.Instance;
         }
 
         protected override ILoad GetLoader()
         {
             return SceneLoader.Instance;
+        }
+
+        protected override ISplash GetSplash()
+        {
+            return SplashScreen.Instance;
         }
 
     }

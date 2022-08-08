@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 
 namespace Trivia.Boot
 {
-    public class GameLauncher : BaseMain<GameLauncher>, IMain
+    public class GameMain : BaseMain<GameMain>, IMain
     {
         protected override IConnector[] GetConnectors()
         {

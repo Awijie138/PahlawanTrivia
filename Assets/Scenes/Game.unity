@@ -282,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 254943633205403275, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 1167861592395367997, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_LocalScale.x
@@ -294,7 +294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1290736752236839815, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_fontSize
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1290736752236839815, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_margin.w
@@ -314,7 +314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1290736752236839815, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_fontSizeBase
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1290736752236839815, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_enableAutoSizing
@@ -358,11 +358,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2347330947355433597, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_fontSize
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2347330947355433597, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_margin.w
-      value: 7.2953568
+      value: 7.2953606
       objectReference: {fileID: 0}
     - target: {fileID: 2347330947355433597, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_margin.x
@@ -378,7 +378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2347330947355433597, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_fontSizeBase
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2347330947355433597, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_enableAutoSizing
@@ -414,7 +414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5940785367817124083, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_fontSize
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5940785367817124083, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_margin.w
@@ -434,7 +434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5940785367817124083, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_fontSizeBase
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5940785367817124083, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_enableAutoSizing
@@ -506,7 +506,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7441031017051778515, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393894319565740322, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -0.000068665
       objectReference: {fileID: 0}
     - target: {fileID: 8393894319565740322, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_LocalScale.x
@@ -514,7 +518,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8393894319565740322, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393894319565740322, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 8698601431358158659, guid: 5a8667ff3ae9db04dbd3f19da190bf46, type: 3}
       propertyPath: m_LocalScale.x

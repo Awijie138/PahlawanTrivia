@@ -1,6 +1,6 @@
 namespace Trivia.Module.Gameplay
 {
-    public class AnswersMessage
+    public struct AnswersMessage
     {
         public bool IsAnswerCorrect;
     }
