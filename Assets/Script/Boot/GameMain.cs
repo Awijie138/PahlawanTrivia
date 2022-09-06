@@ -29,16 +29,7 @@ namespace Trivia.Boot
 
         protected override IEnumerator StartInit()
         {
-            CreateEventSystem();
             yield return null;
-        }
-
-        private void CreateEventSystem()
-        {
-            GameObject Obj = new GameObject("Event System");
-            Obj.AddComponent<EventSystem>();
-            Obj.AddComponent<StandaloneInputModule>();
-            GameObject.DontDestroyOnLoad(Obj);
         }
     }
 }
